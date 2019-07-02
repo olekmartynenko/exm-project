@@ -36,7 +36,7 @@
         <li><a class="menu__item" href="#">About Us</a></li>
       </ul>
     </nav>
-    <a href="index.html" class="logo"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+    <a href="index.html" class="logo" id="start"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 132 24">
         <path d="M5.205,16.528c0.09,1.59,1.44,2.91,3.57,2.91c2.01,0,3.33-1.05,3.42-2.49c0.09-1.35-0.84-2.25-2.85-2.82
       l-2.55-0.66c-3.479-1.02-5.22-2.939-5.22-5.76c0-1.77,0.66-3.24,2.01-4.35c1.35-1.14,3-1.71,4.95-1.71c2.01,0,3.63,0.57,4.919,1.71
@@ -85,7 +85,7 @@
             Enjoy This <br> Summer Trends
           </div>
           <p class="slider-box__text">Discover now Latest Collection</p>
-          <a href="#" class="slider-box__btn">shop now</a>
+          <a href="#shop" class="slider-box__btn">shop now</a>
         </figcaption>
       </figure>
 
@@ -96,7 +96,7 @@
             New Collections
           </div>
           <p class="slider-box__text">Discover now Latest Collection</p>
-          <a href="#" class="slider-box__btn">shop now</a>
+          <a href="#shop" class="slider-box__btn">shop now</a>
         </figcaption>
       </figure>
 
@@ -107,7 +107,7 @@
             Introducing <br> Spring/Summer
           </div>
           <p class="slider-box__text">Discover now Latest Collection</p>
-          <a href="#" class="slider-box__btn">shop now</a>
+          <a href="#shop" class="slider-box__btn">shop now</a>
           <div class="myDots"></div>
         </figcaption>
       </figure>
@@ -128,22 +128,9 @@
 
     <nav class="mobile-navigation">
       <ul>
-        <li class="has-submenu">
+        <li>
           <a class="menu__item" href="#">Shop</a>
-          <ul>
-            <li>
-              <a href="#">Category Page</a>
-            </li>
-            <li>
-              <a href="#">Category Page 2</a>
-            </li>
-            <li>
-              <a href="#">Category Page 3</a>
-            </li>
-            <li>
-              <a href="#">Category Page 4</a>
-            </li>
-          </ul>
+
         </li>
         <li>
           <a class="menu__item" href="#">Portfolio</a>
@@ -396,7 +383,7 @@
               <p>$330</p>
             </div>
           </div>
-        </div><!-- /product-box-->
+        </div>
 
       </div>
     </div>
@@ -419,14 +406,16 @@
   <div class="newsletter">
     <h2 class="newsletter__title">Newsletter</h2>
     <p class="newsletter__text">Get timely updates from your favorite products</p>
-    <form class="newsletter__form" action="">
-      <input class="newsletter__inp" type="email" placeholder="Enter your email address">
-      <button class="newsletter__btn">Subscribe</button>
+    <form id="newsletter__form" class="newsletter__form" action="">
+      <input id="newsletter__inp" class="newsletter__inp" name="email" type="email"
+        placeholder="Enter your email address" data-validate="1">
+      <div class="error error_email"></div>
+      <button type="submit" class="newsletter__btn">Subscribe</button>
     </form>
   </div>
   <footer>
     <div class="footer">
-      <a href="index.html" class="footer__logo">
+      <a href="#start" class="footer__logo">
         <?xml version="1.0" encoding="utf-8"?>
         <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -471,6 +460,7 @@
   <!--  JavaScript here -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
   <script src="js/script.js"></script>
 
 </body>
