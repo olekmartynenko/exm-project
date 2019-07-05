@@ -39,13 +39,13 @@ width="24" height="120">
 </g>
 
 </defs>
-<use x="0" y="0" xlink:href="#tw" fill="rgba(0, 0, 0, .6)"/>
-<use x="0" y="15" xlink:href="#tw" fill="rgba(0, 0, 0, .85)"/>
-<use x="0" y="30" xlink:href="#fb" fill="rgba(0, 0, 0, .6)"/>
-<use x="0" y="45" xlink:href="#fb" fill="rgba(0, 0, 0, .85)"/>
-<use x="0" y="60" xlink:href="#inst" fill="rgba(0, 0, 0, .6)"/>
-<use x="0" y="75" xlink:href="#inst" fill="rgba(0, 0, 0, .85)"/>
-<use x="0" y="90" xlink:href="#pin" fill="rgba(0, 0, 0, .6)"/>
-<use x="0" y="105" xlink:href="#pin" fill="rgba(0, 0, 0, .85)"/>
+<use x="0" y="0" xlink:href="#tw" fill="#1DA1F2"/>
+<use x="0" y="15" xlink:href="#tw" fill="#1B95E0"/>
+<use x="0" y="30" xlink:href="#fb" fill="#4267B2"/>
+<use x="0" y="45" xlink:href="#fb" fill="#0D1424"/>
+<use x="0" y="60" xlink:href="#inst" fill="#C22F69"/>
+<use x="0" y="75" xlink:href="#inst" fill="#9B2AAF"/>
+<use x="0" y="90" xlink:href="#pin" fill="#CB2027"/>
+<use x="0" y="105" xlink:href="#pin" fill="#94191D"/>
 
 </svg>
